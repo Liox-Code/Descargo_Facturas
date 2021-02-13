@@ -1,0 +1,65 @@
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-image: rgba(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    background-color: #fefefe;
+    width: 40%;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+.modal_titulo{
+    width:100%;
+    text-align: center;
+    font-size: 24px;
+    margin:0;
+}
+
+.boton_cerrar {
+    position:absolute;
+    top:0px;
+    right:8px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.boton_cerrar:hover,
+.boton_cerrar:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-cabecera {
+    padding: 16px 0;
+    background-image: linear-gradient(-90deg, #FF8789,#FF5154, #FF2A2E);
+    color: white;
+}
+
+.modal-contenido {
+    padding: 2px 16px;
+}
+
+@keyframes slideIn {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}

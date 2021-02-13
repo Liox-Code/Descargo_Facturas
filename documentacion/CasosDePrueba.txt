@@ -1,0 +1,38 @@
+Recursos Humanos C.I. : 6854981
+
+C.I. : 6854296
+Nombre : Alex
+Apellido : Condori
+Nombre_Usuario : AC
+Contraseña : AC
+Email : reynaldozeballos@gmail.com
+Tipo : Usuario
+
+C.I.  : 7568345
+Nombre : Sebastian
+Apellido : Herrera
+Nombre_Usuario : SH
+Contraseña : SH
+Email : SH@gmail.com
+Tipo : Recursos Humanos
+
+NIT : 280048029
+Numero Factura : 547852 
+Numero Autorizaci�n : 392401800038834
+Fecha : 06/10/2018
+Importe : 500
+C�digo Control : 94-CC-AD-E4
+
+NIT : 280048029
+Numero Factura : 1037264
+Numero Autorizaci�n : 392401800038834
+Fecha : 21/10/2018
+Importe : 1250
+C�digo Control : 94-CC-AD-E4
+
+NIT : 280048029
+Numero Factura : 147608
+Numero Autorizaci�n : 392401800038834
+Fecha : 24/10/2018
+Importe : 750
+C�digo Control : 94-CC-AD-E4

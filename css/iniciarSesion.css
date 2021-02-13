@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: PT_Sans;
+  }
+@font-face{
+  src:url(fonts/PT_Sans-Web-Regular.ttf);
+  font-family: PT_Sans;
+}
+.contenedorForms{
+  padding: 0% 25% 0 25%;
+}
+.contenedorIniciarSesion{
+  padding: 10px 25% 0 25%;
+}
+.contenedorNotificacion{
+  padding: 20px 0;
+  width: 100%;
+}
+.contenedorRegistroFact{
+  padding: 1% 0 0 0;
+}
+.formaModificar{
+  background-color: #fff;
+  opacity: 0.9;
+  color: #ff4335;
+  height: 100%;
+  width:400px;
+  padding: 16px 30px;
+  border-radius: 15px;
+  margin: auto;
+}
+.formaModificar input[type=text],.formaModificar input[type=password],.formaModificar input[type=email],.formaModificar select,.formaModificar input[type=date],.formaModificar input[type=number]{
+  width: 98%;
+  margin: 2px auto;
+  padding: 4px 0px 4px 10px;
+  display: block;
+  font-size: 18px;
+  border: none;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+  background-color: #4C4C4C;
+  color: #FFFFFF;
+}
+.formaModificar label{
+  font-size: 20px;
+  width: 100%;
+  padding: 4px 0 0 0;
+  display: inline-block;
+  color: #ff4335;
+  border: none;
+}
+.formaModificar input:focus{
+  background-color: #FFFFFF;
+  color: #DC143C;
+}
+::placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+}
+:focus::placeholder {
+  color: #ff4335;
+  opacity: 1;
+}
+.formaModificar input[type=submit]{
+  background-color: Transparent;
+  width: 100%;
+  color: #FFFFFF;
+  padding: 8px 0px;
+  background-color: #ff4335;
+  font-size: 20px;
+  border: none;
+}
+.formaModificar input[type=submit]:hover{
+  background-color: #ffffff;
+  color: #ff4335;
+  border: 1px solid #ff4335;
+}
+.formaModificar .botones{
+  width: 100%;
+  margin: 16px 0;
+}
+.formaModificar textarea{
+  width: 100%;
+  margin: 2px 0px;
+  padding: 8px 0px;
+  height: 100px;
+}
+.formaModificar h2{
+  color: #ff4335;
+  margin: 2px 0;
+}
+.formaModificar label{
+  color: #ff4335;
+}
+.btnModificar{
+  width: 100%;
+  padding: 10px 16px;
+}
+.soloLeer{
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+}

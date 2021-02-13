@@ -1,0 +1,76 @@
+.informacion{
+  height: 40px;
+}
+.validacionIncorrecta
+{
+  color: white;
+  background-color: #ff4335;
+  padding: 10px;
+  height: 40px;
+}
+.envioAbierto,.envioCerrado,.lblFechaLimite{
+  color: white;
+  margin: 0;
+}
+.envioAbierto,.envioCerrado{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.envioAbierto{
+  background-color: #1FB558;
+  padding: 10px 80px;
+}
+.envioCerrado{
+  background-color: #ff4335;
+  padding: 10px 40px;
+}
+.lblInformacion{
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  background-color: black;
+  color: #FFFFFF;
+  opacity: 0.75;
+  border-radius: 10px;
+  width: 300px;
+  height: 220;
+}
+.divInformacion{
+  display: block;
+  margin: 8px;
+  padding: 4px 0;
+}
+.divInformacionTitulos,.divInformacionDatos
+{
+  display: inline-block;
+  font-size: 16px;
+}
+.divInformacionTitulos
+{
+  width: 70%;
+}
+.divInformacionDatos
+{
+  width: 30%;
+  text-align: center;
+}
+.lblFechaLimite{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  color: #ff4335;
+  padding: 10px 20px;
+}
+.lblSucursal{
+  position: absolute;
+  top: 0;
+  right: 221px;
+  background-color: white;
+  color: #ff4335;
+  width: 220px;
+  height: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
